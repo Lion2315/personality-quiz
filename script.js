@@ -38,7 +38,7 @@ q1a4.addEventListener("click", Snowwhite);
 
 
 //#TODO: Define quiz functions here
-function result1(){
+function result(){
   
   
   
