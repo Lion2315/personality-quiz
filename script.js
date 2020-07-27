@@ -3,7 +3,12 @@
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
 var result1Score = 0;
-var 
+var Cinderella = 0;
+var Jasmine = 0;
+var Belle = 0;
+var Snowwhite = 0;
+
+
 
 
 
