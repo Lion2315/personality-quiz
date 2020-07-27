@@ -24,7 +24,12 @@ var q1a4 = document.getElementById("q1a4");
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", result1);
+q1a1.addEventListener("click", Cinderella);
+q1a2.addEventListener("click", Jasmine);
+q1a3.addEventListener("click", Belle);
+q1a4.addEventListener("click", Snowwhite);
+
+
 
 
 
