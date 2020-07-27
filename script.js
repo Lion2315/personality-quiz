@@ -3,6 +3,7 @@
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
 var result1Score = 0;
+
 var Cinderella = 0;
 var Jasmine = 0;
 var Belle = 0;
@@ -11,10 +12,11 @@ var Snowwhite = 0;
 
 
 
-
-
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
+var q1a2 = document.getElementById("q1a2");
+var q1a3 = document.getElementById("q1a3");
+var q1a4 = document.getElementById("q1a4");
 
 
 
