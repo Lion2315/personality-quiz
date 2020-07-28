@@ -108,5 +108,8 @@ function updateResult(){
     result.innerHTML = "Jasmine!";
   
   }
-  else if()
+  else if(belle >= 2){
+    result.innerHTML = "Belle!"
+  }
+  else if
 }
