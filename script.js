@@ -6,8 +6,8 @@ var result1Score = 0;
 
 var CinderellaScore = 0;
 var JasmineScore = 0;
-var Belle = 0;
-var Snowwhite = 0;
+var BelleScore = 0;
+var SnowwhiteScore = 0;
 
 
 
@@ -31,20 +31,20 @@ var q3a4 = document.getElementById("q3a4");
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", Cinderella);
-q1a2.addEventListener("click", Jasmine);
-q1a3.addEventListener("click", Belle);
-q1a4.addEventListener("click", Snowwhite);
+q1a1.addEventListener("click", cinderella);
+q1a2.addEventListener("click", jasmine);
+q1a3.addEventListener("click", belle);
+q1a4.addEventListener("click", snowwhite);
 
-q2a1.addEventListener("click", Cinderella);
+q2a1.addEventListener("click", cinderella);
 q2a2.addEventListener("click", jasmine);
-q2a3.addEventListener("click", Belle);
-q2a4.addEventListener("click", Snowwhite);
+q2a3.addEventListener("click", belle);
+q2a4.addEventListener("click", snowwhite);
 
-q3a1.addEventListener("click", Cinderella);
-q3a2.addEventListener("click", Jasmine);
-q3a3.addEventListener("click", Belle);
-q3a4.addEventListener("click", Snowwhite);
+q3a1.addEventListener("click", cinderella);
+q3a2.addEventListener("click", jasmine);
+q3a3.addEventListener("click", belle);
+q3a4.addEventListener("click", snowwhite);
 
 
 
@@ -57,27 +57,32 @@ q3a4.addEventListener("click", Snowwhite);
 
 //#TODO: Define quiz functions here
 function cinderella(){
-  cinderella += 1;
+  CinderellaScore += 1;
   questionCount =+ 1;
   alert(" One point to cinderella");
   
+  if (questionCount >= 3){
+      updateResult();
+    
+  }
+  
 }
 function jasmine(){
-  jasmine += 1;
+  JasmineScore += 1;
   questionCount += 1;
   alert("One point to jasmine");
   
 }
 
 function belle(){
-  belle += 1;
+  BelleScore += 1;
   questionCount += 1;
   alert("One point to belle");
   
 }
 
 function snowwhite(){
-  snowwhite += 1;
+  SnowwhiteScore += 1;
   questionCount += 1;
   alert("One point to snowwhite");
 }
