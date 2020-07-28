@@ -1,4 +1,4 @@
-//Global Variables
+egEZteg//Global Variables
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
@@ -97,6 +97,16 @@ function snowwhite(){
     updateResult();
     
   }
-    
-}
+var result = document.getElementById("result");
 
+function updateResult(){
+  if (CinderellaScore >=2){
+    result.innerHTML = "Cinderella!";
+    
+  }
+  else if(jasmine >=2){
+    result.innerHTML = "Jasmine!";
+  
+  }
+  else if()
+}
