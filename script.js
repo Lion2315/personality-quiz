@@ -62,7 +62,8 @@ function cinderella(){
   alert(" One point to cinderella");
   
   if (questionCount >= 3){
-      updateResult();
+       updateResult();
+    
     
   }
   
@@ -72,12 +73,19 @@ function jasmine(){
   questionCount += 1;
   alert("One point to jasmine");
   
+  if (questionCount >= 3){
+    updateResult();
+  }
+  
 }
 
 function belle(){
   BelleScore += 1;
   questionCount += 1;
   alert("One point to belle");
+  if (questionCount >= 3){
+    updateResult();
+  }
   
 }
 
@@ -85,4 +93,10 @@ function snowwhite(){
   SnowwhiteScore += 1;
   questionCount += 1;
   alert("One point to snowwhite");
+  if (questionCount >= 3){
+    updateResult();
+    
+  }
+    
 }
+
