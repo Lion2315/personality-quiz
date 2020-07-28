@@ -4,8 +4,8 @@
 var questionCount = 0;
 var result1Score = 0;
 
-var Cinderella = 0;
-var Jasmine = 0;
+var CinderellaScore = 0;
+var JasmineScore = 0;
 var Belle = 0;
 var Snowwhite = 0;
 
@@ -23,9 +23,10 @@ var q2a2 = document.getElementById("q2a2");
 var q2a3 = document.getElementById("q2a3");
 var q2a4 = document.getElementById("q2a4");
 
-
-
-
+var q3a1 = document.getElementById("q3a1");
+var q3a2 = document.getElementById("q3a2");
+var q3a3 = document.getElementById("q3a3");
+var q3a4 = document.getElementById("q3a4");
 
 
 
@@ -34,6 +35,17 @@ q1a1.addEventListener("click", Cinderella);
 q1a2.addEventListener("click", Jasmine);
 q1a3.addEventListener("click", Belle);
 q1a4.addEventListener("click", Snowwhite);
+
+q2a1.addEventListener("click", Cinderella);
+q2a2.addEventListener("click", jasmine);
+q2a3.addEventListener("click", Belle);
+q2a4.addEventListener("click", Snowwhite);
+
+q3a1.addEventListener("click", Cinderella);
+q3a2.addEventListener("click", Jasmine);
+q3a3.addEventListener("click", Belle);
+q3a4.addEventListener("click", Snowwhite);
+
 
 
 
