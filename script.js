@@ -18,6 +18,12 @@ var q1a2 = document.getElementById("q1a2");
 var q1a3 = document.getElementById("q1a3");
 var q1a4 = document.getElementById("q1a4");
 
+var q2a1 = document.getElementById("q2a1");
+var q2a2 = document.getElementById("q2a2");
+var q2a3 = document.getElementById("q2a3");
+var q2a4 = document.getElementById("q2a4");
+
+
 
 
 
@@ -38,8 +44,28 @@ q1a4.addEventListener("click", Snowwhite);
 
 
 //#TODO: Define quiz functions here
-function result(){
+function cinderella(){
+  cinderella += 1;
+  questionCount =+ 1;
+  alert(" One point to cinderella");
   
+}
+function jasmine(){
+  jasmine += 1;
+  questionCount += 1;
+  alert("One point to jasmine");
   
+}
+
+function belle(){
+  belle += 1;
+  questionCount += 1;
+  alert("One point to belle");
   
+}
+
+function snowwhite(){
+  snowwhite += 1;
+  questionCount += 1;
+  alert("One point to snowwhite");
 }
